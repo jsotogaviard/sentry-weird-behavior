@@ -1,0 +1,16 @@
+{
+  "name": "sentry-weird-behavior",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "./dist/sentry-weird-behavior.js"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sentry-weird-behavior",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "watch": "rollup --watch --config rollup.config.js ",
+    "main": "rollup --config rollup.config.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "*",
+    "@sentry/browser": "^6.15.0",
+    "@sentry/integrations": "*",
+    "@sentry/tracing": "^6.15.0",
+    "rollup": "2.61.1"
+  }
+}
